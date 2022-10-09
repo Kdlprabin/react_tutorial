@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+/* navbar section */
+.navbar{
+  background-color: #76ba49;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.social-links a{
+  margin: 2px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.social-links svg{
+  color: #235a73;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.social-links svg:hover{
   color: white;
 }
+/* footer  */
+footer{
+  background-color:#76ba49;
+  width: 100%;
+}
+/* main section */
+.logo{
+  height: 40vh;
+  display: block;
+  margin: 0px auto;
+}
+.btn{
+  background: #76ba49;
+  color: white;
+  border-radius: 44px 4px 44px 4px;
+  padding: 20px;
+  margin: 0px 47%;
+}
+.btn:hover{
+  color: #76ba49;
+  outline: 1px solid #76ba49;
+}
+.align_center{
+  margin: 0px auto;
+  display: block;
 
-.App-link {
-  color: #61dafb;
+}
+.background{
+  margin-top:50px;
+  background-color: #76ba49;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* community section */
+
+.plates{
+  margin-top:20px;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.plates div{
+  background-color: white;
+  height: 100px;
+  width: 45%;
+  margin:5px 5%;
+  border-radius: 10px;
+}
+
+/* post section */
+
+.post{
+  color:#235a73;
+  text-align: center;
+  margin-top : 20px;
+}
+
+.banner{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.banner div{
+  width: 50%;
+  background-color: #76ba49;
+  height: 300px;
+  margin:50px;
+  border-radius: 10px;
 }

@@ -2,13 +2,13 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className="p-5 text-light mt-5 bg-dark">
+    <footer className="p-5 text-light mt-5">
             <div className="container d-flex justify-content-between">
                 <div className="lh-1">
                     <p className="fs-2">Herald Bizcore</p>
                     <p className="fs-4">Community</p>
                 </div>
-                <div>
+                <div className="social-links">
                     <a href="https://www.instagram.com/herald_bizcore/"
                         className="nodecor">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16"
